@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="#A6C87F">
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:max="180"
+        android:min="1"
+        android:progress="0"
+        android:progressDrawable="@drawable/bar"
+        android:thumb="@drawable/thumb"
+        android:indeterminate="false"/>
+
+    <Button
+        android:id="@+id/speachBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="up/down"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="150dp"
+        android:drawableStart="@drawable/ic_speach"
+        android:background="#08DDD2D2"/>
+
+</LinearLayout>
